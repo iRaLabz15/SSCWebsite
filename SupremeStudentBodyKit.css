@@ -1,0 +1,52 @@
+﻿body {
+    background-color: #DCDCDC;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: royalblue;
+    padding: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+    nav a {
+        margin: 20px;
+        text-decoration:none;
+        color:white;
+    }
+    nav a:hover {
+        color:red;
+    }
+
+.pancit {
+    font-weight: bold;
+    padding: 5px;
+    background-color: #ff0015;
+    color: white;
+}
+
+.chorizo {
+    border: 2px solid #333;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.chorizo:hover {
+   background-color:lightgrey;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+
